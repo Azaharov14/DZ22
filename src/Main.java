@@ -64,12 +64,6 @@ public class Main {
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
-        System.out.println("______");
-        for (int i = 0; i < reverseFullName.length / 2; i++) {
-            temp = reverseFullName[i];
-            reverseFullName[i] = reverseFullName[reverseFullName.length - 1 - i];
-            reverseFullName[reverseFullName.length - 1 - i] = temp;
-        }
-        System.out.print(Arrays.toString(reverseFullName));
+        System.out.println(" ");
     }
 }
